@@ -1,4 +1,4 @@
-void calcularMoedasSimples(int valor) {
+void calcularMoedasBalsamia(int valor) {
   final moedas = [100, 50, 10, 5, 1];
   for (var moeda in moedas) {
     var quantidade = valor ~/ moeda;
@@ -11,5 +11,5 @@ void calcularMoedasSimples(int valor) {
 
 void main() {
   var valor = 135;
-  calcularMoedasSimples(valor);
+  calcularMoedasBalsamia(valor);
 }
